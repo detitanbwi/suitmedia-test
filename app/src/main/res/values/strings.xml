@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SuitmediaTest</string>
+    <string name="hint_palindrome">Palindrome</string>
+    <string name="hint_name_first_screen">Name</string>
+    <string name="btn_check_palindrome">Check</string>
+    <string name="btn_next">Next</string>
+    <string name="welcoming_text">Welcome</string>
+    <string name="dummy_name">John Doe</string>
+    <string name="dummy_username">detitan_bwi</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+</resources>
