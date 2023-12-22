@@ -19,7 +19,7 @@ class UserPagingSource(private val apiService: ApiService) : PagingSource<Int, U
             LoadResult.Page(
                 data = responseData.data,
                 prevKey = if (page == 1) null else page - 1,
-                nextKey = if (responseData.data.isEmpty()) null else page + 1
+                nextKey = if (page == responseData.totalPages) null else page + 1
             )
         } catch (exception: Exception) {
             return LoadResult.Error(exception)
